@@ -2,9 +2,9 @@ package flowerstore;
 
 public class FlowerPack {
     private Flower flower;
-    private int flowerNum;
+    private int amount;
 
-    public double getPrice() {
-        return flower.getPrice() * flowerNum;
+    public double price() {
+        return flower.getPrice() * amount;
     }
 }
