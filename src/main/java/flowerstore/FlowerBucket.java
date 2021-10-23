@@ -17,4 +17,11 @@ public class FlowerBucket {
         }
         return price;
     }
+
+    @Override
+    public String toString() {
+        return "FlowerBucket{" +
+                "flowerPacks=" + flowerPacks +
+                '}';
+    }
 }
